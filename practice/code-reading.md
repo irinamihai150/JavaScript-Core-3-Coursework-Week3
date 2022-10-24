@@ -15,6 +15,7 @@ Take a look at the following code:
 ```
 
 Explain why line 4 and line 6 output different numbers.
+First variable has global scope and second one has function scope. Both variables are called x but they are different
 
 ## Question 2
 
@@ -34,6 +35,7 @@ console.log(y)
 ```
 
 What will be the output of this code. Explain your answer in 50 words or less.
+variable Y has not been defined and variable x has global scope so it can be used in f1 function
 
 ## Question 3
 
@@ -62,3 +64,5 @@ console.log(y);
 ```
 
 What will be the output of this code. Explain your answer in 50 words or less.
+I think it will be 9, as variable x is global.
+For the second I think it would be 10
