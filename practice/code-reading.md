@@ -64,5 +64,5 @@ console.log(y);
 ```
 
 What will be the output of this code. Explain your answer in 50 words or less.
-I think it will be 9, as variable x is global.
+I think it will be 9, as variable x is global and we used const so it can not be redeclared
 For the second I think it would be 10
